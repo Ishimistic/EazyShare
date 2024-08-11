@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+
+.container {
+  background: #f2d8d8;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin: 0.7rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+
+.wrapper {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 800;
+  color: rgb(0, 0, 42);
+  margin: 20px 0;
+}
+
+.fileInputContainer {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.fileInput {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.customFileLabel {
+  background-color: rgb(255, 109, 109);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+
+.fileinput {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color:rgb(150, 59, 59);
+  border: 2px solid rgb(255, 109, 109);
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+  cursor: pointer;
+}
